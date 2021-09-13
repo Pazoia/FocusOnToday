@@ -19,7 +19,7 @@ Focus on Today is an app where the user plans the current day:
 
 This project allows its users to submit goals, affirmations and end of day reflections.
 
-## User Story
+## User Stories
 
 ```mermaid
 As a user
@@ -29,7 +29,7 @@ I'd like to be able to submit a goal
 
 | Object/Class   | Method        | Behavior/Relationship | 
 | -------------- | ------------- | --------------------- |
-| Goals          | setGoal()     | Submit and save goals |
+| Goals          | saveGoal()    | Submit and save goals |
 
 ```mermaid
 As a user
@@ -37,9 +37,9 @@ So that I can write an affirmation for today
 I'd like to be able to submit my affirmation
 ```
 
-| Object/Class   | Method           | Behavior/Relationship         | 
-| -------------- | ---------------- | ----------------------------- |
-| Affirmations    | setAffirmation() | Submit and save affirmations |
+| Object/Class   | Method              | Behavior/Relationship         | 
+| -------------- | ------------------- | ----------------------------- |
+| Affirmations   | save Affirmation()  | Submit and save affirmations  |
 
 ```mermaid
 As a user
@@ -47,13 +47,13 @@ So that I can write my reflections on today
 I'd like to be able to submit my reflections
 ```
 
-| Object/Class   | Method           | Behavior/Relationship        | 
-| -------------- | ---------------- | ---------------------------- |
-| Reflections    | setReflections() | Submit and save Reflections  |
+| Object/Class   | Method            | Behavior/Relationship        | 
+| -------------- | ----------------- | ---------------------------- |
+| Reflections    | saveReflections() | Submit and save Reflections  |
 
 ## Technologies
 
-Java 11
+Java 11  
 JUnit
 
 ## Launch
@@ -63,4 +63,5 @@ Will need help filling out this field. To be completed.
 ## Project Status
 
 * Planning project requirements
+* Starting first user story
 
